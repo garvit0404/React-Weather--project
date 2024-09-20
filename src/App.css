@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.infobg{
+  background-color: #d7d7d7;
+background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
+
+}
+
+.weather-background {
+  background-image: url('./assets/rain.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+}
+
+.flex-container {
+  padding: 16px;
+
+}
+
+/* Style the individual items */
+ .flex-item {
+  flex: 0 0 auto; /*Prevent items from growing to fill space*/
+} 
+
+/* Style the scrollbar */
+.flex-container::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  border-radius: 12px;
+}
+
+/* Handle */
+.flex-container::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar handle */
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+.flex-container::-webkit-scrollbar-thumb:hover {
+  background: #bebebe; /* Darker color on hover */
+}
+
+.weather{
+background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
+
+}
